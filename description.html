@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="title" content="HBUED: A Large-scale EEG Dataset for Emotion Recognition" />
+    <meta name="keywords" content="HBUED, EEG, emotion recognition, dataset, deep learning, Hebei University" />
+    <meta name="author" content="Hebei University Research Team" />
+    <meta name="description" content="HBUED is a large-scale EEG dataset from Hebei University, designed for emotion recognition research, featuring a collection of emotional EEG data from 50 participants." />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" title="Red" href="css/style_red.css" />
+
+    <title>HBUED: Large-scale EEG Dataset for Emotion Recognition</title>
+</head>
+
+<body>
+<div id="header">
+    <div id="header_inner" class="fixed">
+        <div id="logo">
+            <h1>HBUED <span class="small-font">Hebei University Emotional EEG Dataset</span></h1>
+            <h2>A Large-scale EEG Dataset for Emotion Recognition Research</h2>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="description.html">Dataset Description</a></li>
+                <li><a href="download.html"class="active">Download</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="main">
+    <div id="main_inner" class="fixed">
+        <div id="primaryContent_columnless">
+            <div id="columnA_columnless">
+                
+                <h3>Dataset Summary</h3>
+                <p>In the "Preprocss_EEG" folder, there are files containing the downsampled, preprocessed, and segmented versions of the EEG data for MATLAB. The data were resampled to 200 Hz and bandpass filtered between 0.1 to 48 Hz. We extracted segments of EEG data corresponding to the duration of each movie. Each participant is represented by a file with the extension .mat (a MATLAB file). Each participant's file contains three arrays. The array 'data' represents the preprocessed EEG data from 24 trials in the experiment (channel×data×experiment_number). The arrays 'a_label' and 'v_label' represent the corresponding affective labels for the 24 trials (with label values ranging from 0 to 9), where 'a' indicates the arousal dimension and 'v' indicates the valence dimension. The detailed order of the channels is included in the dataset. The 32-channel EEG cap according to the international 10-20 system is shown in the figure below:</p>
+                <img src="./img/2.jpg"  style="width: 50%; height: 50%; display: block; margin-left: auto; margin-right: auto;">
+
+                <h3>illustrate</h3>
+                <p>In the "Feature_EEG" folder, there are files containing the feature data for each participant. The features provided in this dataset are differential entropy features. These data are particularly suitable for those who want to quickly test classification methods without preprocessing the raw EEG data. The file format is consistent with the "Preprocss_EEG" folder.</p>
+
+                <h3>Acknowledge</h3>
+                <p>This work was supported in part by National Natural Science Foundation of China under Grant 62172139, S&T Program of Hebei Province under Grant 246Z0104G, Science Foundation Science Research Project of Hebei Province under Grant CXY2024031, Natural Science Interdisciplinary Research Program of Hebei University under Grant DXK202102.</p>
+
+            </div>
+        </div>
+        <br class="clear" />
+    </div>
+</div>
+
+<div id="footer" class="fixed">
+    <p>Copyright © 2024 Hebei University</p>
+</div>
+
+</body>
+</html>
