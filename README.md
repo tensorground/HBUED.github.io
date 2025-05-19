@@ -83,7 +83,6 @@ After filling out the license agreement, please send it to the following email a
       <td>Scene from a documentary on Japan's Unit 731</td>
     </tr>
     <tr>
-      
       <td rowspan="6">Low Valence<br>Low Arousal</td>
       <td rowspan="6">120 sec</td>
       <td rowspan="6">15 fps</td>
