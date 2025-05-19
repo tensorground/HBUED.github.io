@@ -62,9 +62,9 @@ After filling out the license agreement, please send it to the following email a
       <td>Calming nature landscape video</td>
     </tr>
     <tr>
-      <td rowspan="7">Low Valence<br>High Arousal</td>
-      <td rowspan="7">120 sec</td>
-      <td rowspan="7">15 fps</td>
+      <td rowspan="6">Low Valence<br>High Arousal</td>
+      <td rowspan="6">120 sec</td>
+      <td rowspan="6">15 fps</td>
       <td>Scene from Cry Me a Sad River</td>
     </tr>
     <tr>
@@ -86,9 +86,6 @@ After filling out the license agreement, please send it to the following email a
       <td rowspan="6">Low Valence<br>Low Arousal</td>
       <td rowspan="6">120 sec</td>
       <td rowspan="6">15 fps</td>
-      <td>Closing credits clip from a film</td>
-    </tr>
-    <tr>
       <td>Scene from a documentary on Miao silver - crafting</td>
     </tr>
     <tr>
@@ -102,6 +99,9 @@ After filling out the license agreement, please send it to the following email a
     </tr>
     <tr>
       <td>Micro - video of spinning marbles</td>
+    </tr>
+    <tr>
+      <td>Closing credits clip from a film</td>
     </tr>
   </tbody>
 </table>
