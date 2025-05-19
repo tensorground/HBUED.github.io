@@ -9,26 +9,91 @@ After filling out the license agreement, please send it to the following email a
 **Cite**: Shuaiqi Liu, Xinrui Wang, Yanling An, Zeyao Wang, Zhihui Gu, Yudong Zhang, Shuhuan Zhao, HBUED: An EEG dataset for emotion recognition, Journal of Affective Disorders, 2025: 119397.
 
 **Dataset Description**: This dataset contains the EEG data of 50 subjects (the data have been preliminarily preprocessed using eeglab), and the stimulation forms of the dataset are as follows:
-| Target Emotion Category | Duration | Frame Rate | Video Content Description |
-| ---- | ---- | ---- | ---- |
-| **High Valence**<br>**High Arousal** | 120 sec | 15 fps | Olympic hurdling gold medal clip |
-|  |  |  | Olympic shooting gold medal clip |
-|  |  |  | Scene from City of Rock |
-|  |  |  | Scene from Lost on Journey |
-|  |  |  | Scene from The Mermaid |
-|  |  |  | Women's football match clip |
-| **High Valence**<br>**Low Arousal** | 120 sec | 15 fps | Grassland scenery video |
-|  |  |  | Seaside travel video |
-|  |  |  | Waterfall scenery video |
-|  |  |  | Afternoon relaxation video |
-|  |  |  | Violin music video |
-|  |  |  | Calming nature landscape video |
-| **Low Valence**<br>**High Arousal** | 120 sec | 15 fps | Scene from Cry Me a Sad River |
-|  |  |  | Scene from Fist of Fury |
-|  |  |  | Scene from a wartime documentary |
-|  |  |  | Scene from The Ring |
-|  |  |  | Scene from The Bravest |
-|  |  |  | Scene from a documentary on Japan's Unit 731 |
-|  |  |  | Closing credits clip from a film |
-| **Low Valence** | 120 sec | 15 fps | Scene from a documentary on Miao silver - crafting |
-|  |  |  | Micro - video of classroom teaching |
+<table>
+  <thead>
+    <tr>
+      <th>Target Emotion Category</th>
+      <th>Duration</th>
+      <th>Frame Rate</th>
+      <th>Video Content Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6">High Valence<br>High Arousal</td>
+      <td rowspan="6">120 sec</td>
+      <td rowspan="6">15 fps</td>
+      <td>Olympic hurdling gold medal clip</td>
+    </tr>
+    <tr>
+      <td>Olympic shooting gold medal clip</td>
+    </tr>
+    <tr>
+      <td>Scene from City of Rock</td>
+    </tr>
+    <tr>
+      <td>Scene from Lost on Journey</td>
+    </tr>
+    <tr>
+      <td>Scene from The Mermaid</td>
+    </tr>
+    <tr>
+      <td>Women's football match clip</td>
+    </tr>
+    <tr>
+      <td rowspan="6">High Valence<br>Low Arousal</td>
+      <td rowspan="6">120 sec</td>
+      <td rowspan="6">15 fps</td>
+      <td>Grassland scenery video</td>
+    </tr>
+    <tr>
+      <td>Seaside travel video</td>
+    </tr>
+    <tr>
+      <td>Waterfall scenery video</td>
+    </tr>
+    <tr>
+      <td>Afternoon relaxation video</td>
+    </tr>
+    <tr>
+      <td>Violin music video</td>
+    </tr>
+    <tr>
+      <td>Calming nature landscape video</td>
+    </tr>
+    <tr>
+      <td rowspan="7">Low Valence<br>High Arousal</td>
+      <td rowspan="7">120 sec</td>
+      <td rowspan="7">15 fps</td>
+      <td>Scene from Cry Me a Sad River</td>
+    </tr>
+    <tr>
+      <td>Scene from Fist of Fury</td>
+    </tr>
+    <tr>
+      <td>Scene from a wartime documentary</td>
+    </tr>
+    <tr>
+      <td>Scene from The Ring</td>
+    </tr>
+    <tr>
+      <td>Scene from The Bravest</td>
+    </tr>
+    <tr>
+      <td>Scene from a documentary on Japan's Unit 731</td>
+    </tr>
+    <tr>
+      <td>Closing credits clip from a film</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Low Valence</td>
+      <td rowspan="3">120 sec</td>
+      <td rowspan="3">15 fps</td>
+      <td>Scene from a documentary on Miao silver - crafting</td>
+    </tr>
+    <tr>
+      <td>Micro - video of classroom teaching</td>
+    </tr>
+    <!-- 这里表格最后一行未完整，假设还有内容继续补充 -->
+  </tbody>
+</table>
