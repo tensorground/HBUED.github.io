@@ -110,4 +110,4 @@ For detailed information about the dataset, please refer to the above article.
 
 **Additional information**:
 The format of the preprocessed data is: **number of channels * data volume * Number of films**
-The data format after feature extraction is (the feature is differential entropy feature) : **data volume * number of fragments * number of channels**, which also includes **rb_data** where the baseline data has been removed, **data** where the baseline data has not been removed, and **base_data** of the baseline data
+The data format after feature extraction is (the feature is differential entropy feature) : **data volume * number of fragments * number of channels**, which also includes **rb_data** where the baseline data has been removed, **data** where the baseline data has not been removed, and **base_data** of the baseline data.
