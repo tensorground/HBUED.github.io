@@ -4,7 +4,7 @@
 
 If you need to use this dataset, please complete the license agreement we provide and send it to the designated email address. We will provide access as soon as possible.
 
-After filling out the license agreement, please send it to the following email address: cvmdsp@163.com.We will reply as soon as possible.
+After filling out the license agreement, please send it to the following email address: cvmdsp@163.com. We will reply as soon as possible.
 
 **Cite**:Shuaiqi Liu, Xinrui Wang, Yanling An, Zeyao Wang, Zhihui Gu, Yudong Zhang, Shuhuan Zhao, HBUED: An EEG dataset for emotion recognition, Journal of Affective Disorders, 2025: 119397.
 
