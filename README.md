@@ -6,6 +6,29 @@ If you need to use this dataset, please complete the license agreement we provid
 
 After filling out the license agreement, please send it to the following email address: cvmdsp@163.com. We will reply as soon as possible.
 
-**Cite**:Shuaiqi Liu, Xinrui Wang, Yanling An, Zeyao Wang, Zhihui Gu, Yudong Zhang, Shuhuan Zhao, HBUED: An EEG dataset for emotion recognition, Journal of Affective Disorders, 2025: 119397.
+**Cite**: Shuaiqi Liu, Xinrui Wang, Yanling An, Zeyao Wang, Zhihui Gu, Yudong Zhang, Shuhuan Zhao, HBUED: An EEG dataset for emotion recognition, Journal of Affective Disorders, 2025: 119397.
 
-**Dataset Description**:This dataset contains the EEG data of 50 subjects (the data have been preliminarily preprocessed using eeglab), and the stimulation forms of the dataset are as follows:
+**Dataset Description**: This dataset contains the EEG data of 50 subjects (the data have been preliminarily preprocessed using eeglab), and the stimulation forms of the dataset are as follows:
+| Target Emotion Category | Duration | Frame Rate | Video Content Description |
+| ---- | ---- | ---- | ---- |
+| **High Valence**<br>**High Arousal** | 120 sec | 15 fps | Olympic hurdling gold medal clip |
+|  |  |  | Olympic shooting gold medal clip |
+|  |  |  | Scene from City of Rock |
+|  |  |  | Scene from Lost on Journey |
+|  |  |  | Scene from The Mermaid |
+|  |  |  | Women's football match clip |
+| **High Valence**<br>**Low Arousal** | 120 sec | 15 fps | Grassland scenery video |
+|  |  |  | Seaside travel video |
+|  |  |  | Waterfall scenery video |
+|  |  |  | Afternoon relaxation video |
+|  |  |  | Violin music video |
+|  |  |  | Calming nature landscape video |
+| **Low Valence**<br>**High Arousal** | 120 sec | 15 fps | Scene from Cry Me a Sad River |
+|  |  |  | Scene from Fist of Fury |
+|  |  |  | Scene from a wartime documentary |
+|  |  |  | Scene from The Ring |
+|  |  |  | Scene from The Bravest |
+|  |  |  | Scene from a documentary on Japan's Unit 731 |
+|  |  |  | Closing credits clip from a film |
+| **Low Valence** | 120 sec | 15 fps | Scene from a documentary on Miao silver - crafting |
+|  |  |  | Micro - video of classroom teaching |
